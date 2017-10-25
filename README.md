@@ -4,7 +4,7 @@ error permission as input and compute the options price.
 
 ## Function/Class Description
 
-This project consists of five .java files.
+This project consists of eleven .java files.
 
 *  The RandomVectorGenerator.java defines the interface to generate random vectors.
 *  The NormalRandomVectorGenerator.java defines the class to generate a sequence of standard normal random numbers using ArrayList.
@@ -41,7 +41,7 @@ IBM_european.simulate();
 ```
 Probability specifies the p-value we would like to use. The reason that we divide error by 2 is that we would like to test the two sided error.
 It means that the absolute value of the distance between the estimated value and true value is less than error/2 has probability p-value.
-Finally, we obtain the result that 
+Finally, we obtain the result that showing
 ```
 European = 6.2131487545584925
 Asian = 2.1785994932744974
@@ -50,9 +50,9 @@ Asian = 2.1785994932744974
 
 ## Authors
 
-* **Xiao Guan** - *Initial work* - [KMeans](https://github.com/guan4015/KMeans)
+* **Xiao Guan** - *Initial work* - [MonteCarloSimulation](https://github.com/guan4015/MonteCarloSimulation)
 
 
 ## Acknowledgments
 
-The author thanks Professor Lee Maclin for his help on this assignment.
+The author thanks Professor Eron Fishler for his help on this assignment.
